@@ -124,6 +124,7 @@ ul li a {
 ul li a:hover {
   background: var(--suface-color-hover);
   border: 1.5px solid var(--text-color);
+  transform: scale(1.01);
 }
 
 /*Social links*/

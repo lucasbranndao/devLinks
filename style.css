@@ -73,8 +73,7 @@ body * {
   transform: translateY(-50%);
 }
 .light #switch button {
-  right: 0;
-  left: initial;
+  animation: slide-in 0.4s forwards;
 }
 
 #switch span {
@@ -165,5 +164,15 @@ footer ion-icon:hover {
   }
   .light {
     --bg-url: url(./assets/bg-desktop-light.jpg);
+  }
+}
+
+/* animation */
+@keyframes slide-in {
+  from {
+    left: 0;
+  }
+  to {
+    left: 50%;
   }
 }
